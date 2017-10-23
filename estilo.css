@@ -11,32 +11,27 @@ div{
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 3px;
-	color: #000;
 	background:#f3f3f3;
 	float:left;
 	
-	
+    
 }
-.fa-telegram, .fa-diamond{
-	height: 10px;	
-	margin-bottom: 30px;
-	margin-left:20px;
-	font-size: 30px;
-
-		    
-}
-
-/*.fa{
+/*clase general icono*/
+.fa{
 	height: 10px;	
 	cursor: pointer;
 	margin: 10px;
-	font-size: 200px;
-	
 }
-*/
+/*Llamada individual al icono, en conjunto no acepta tamaño*/
+.fa.fa-telegram {font-size: 50px;}
+.fa.fa-diamond {font-size: 50px;}
+.fa.fa-heart-o {font-size: 50px;}
+.fa.fa-coffee {font-size: 50px;}
+.fa.fa-cutlery {font-size: 50px;}
+
 div:hover {
 background: #FAF1FA;
-Color: #;
+Color: #f3f;
 opacity: 2;
 }
 
